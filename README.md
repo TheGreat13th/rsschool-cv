@@ -1,1 +1,1 @@
-https://TheGreat13th.github.io/rsschool-cv/cv
+https://TheGreat13th.github.io/rsschool-cv/
