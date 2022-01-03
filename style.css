@@ -1,0 +1,119 @@
+* {
+  font-family: "Verdana", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  }
+
+body {
+  background: #565966;
+  font-size: 14px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.cv {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 50px auto 0 auto;
+}
+
+.large {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.medium {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cv .cv_left {
+  width: 280px;
+  background: #2288ad;
+}
+
+.cv .cv_left .cv_profile {
+  width: 100%;
+  height: 280px;
+}
+
+.cv .cv_left .cv_profile img {
+  width: 100%;
+  height: 100%;
+}
+
+.cv .cv_left .content {
+  padding: 0 22px;
+}
+
+.cv .title {
+  margin-bottom: 20px;
+}
+
+.cv .cv_left .large {
+  color: #fff;
+}
+
+.cv .cv_left {
+  color: #b1eaff;
+}
+
+.cv .cv_section {
+  padding: 25px 0;
+  border-bottom: 2px solid #b1eaff;
+}
+
+.cv .cv_left .my_code .medium {
+  color: #fff;
+  margin-bottom: 3px;
+}
+
+.cv .cv_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+} 
+
+.cv .cv_right .large {
+  color: #2288ad;
+}
+
+.cv .cv_right ul li {
+  position: relative;
+}
+
+.cv .cv_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.cv .cv_right ul li .info {
+  margin-bottom: 20px;
+}
+
+.footer {
+  padding: 15px;
+  width: 800px;
+  margin: 0 auto;
+  height: 50px;
+  background: #2288ad;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+}
+
+.rs_logo {
+  width: 50px;
+}
+
+.gh_logo {
+  width: 25px;
+  height: 25px;
+}
